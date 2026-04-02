@@ -1,0 +1,37 @@
+{
+  "usecases": [
+    {
+      "title": "Global Business Meetings",
+      "description": "Facilitate international collaboration with real-time translation for all stakeholders.",
+      "cta": "Learn More"
+    },
+    {
+      "title": "Cross-Cultural Training",
+      "description": "Deliver consistent training programs to diverse teams, regardless of language barriers.",
+      "cta": "Learn More"
+    },
+    {
+      "title": "Client & Partner Engagements",
+      "description": "Build stronger relationships with international clients and partners through clear communication.",
+      "cta": "Learn More"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Sophia Carter",
+      "role": "Head of Global Operations",
+      "company": "GlobalCorp",
+      "timeAgo": "2 months ago",
+      "rating": 5,
+      "text": "Connect has revolutionized our international team meetings. The real-time translation is incredibly accurate and has made communication so much smoother, boosting our productivity significantly."
+    },
+    {
+      "name": "Ethan Bennett",
+      "role": "VP of Sales",
+      "company": "TechInnovate",
+      "timeAgo": "3 months ago",
+      "rating": 4,
+      "text": "Connect’s translation accuracy is a game-changer for our sales calls with international prospects. It helps us build trust and close deals faster, without any language hiccups."
+    }
+  ]
+}

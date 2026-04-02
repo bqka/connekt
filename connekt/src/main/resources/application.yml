@@ -1,0 +1,43 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydb
+    username: postgres
+    password: aadi
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update # options: none | validate | update | create | create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+  output:
+    ansi:
+      enabled: always
+
+server:
+  port: 8080
+  error:
+    include-message: always
+    include-binding-errors: always
+
+frontend:
+  url: http://localhost:3000
+
+jwt:
+  secret: my_super_secret_dev_key_1234567890!@#
+  expiration-ms: 3600000
+
+logging:
+  level:
+    root: INFO
+    org.springframework.security: DEBUG   # show security filters for debugging
+    org.springframework.web: DEBUG
